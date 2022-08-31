@@ -5,10 +5,7 @@ import ImageGrid from './components/ImageGrid';
 import Modal from './components/Modal';
 import Footer from './components/Footer';
 
-// root component
-
 function App() {
-  // handles selecting the Modals to enlargen
   const [ selectedImg, setSelectedImg ] = useState(null);
 
 
